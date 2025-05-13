@@ -1,0 +1,22 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "beautifulsoup4>=4.13.4",
+    "crawl4ai>=0.6.3",
+    "faiss-cpu>=1.11.0",
+    "fastapi>=0.115.12",
+    "httpx>=0.28.1",
+    "langchain>=0.3.25",
+    "langchain-community>=0.3.24",
+    "langchain-huggingface>=0.2.0",
+    "langchain-ollama>=0.3.2",
+    "pydantic>=2.11.4",
+    "pymupdf>=1.25.5",
+    "sentence-transformers>=4.1.0",
+    "sqlmodel>=0.0.24",
+    "uvicorn>=0.34.2",
+]
