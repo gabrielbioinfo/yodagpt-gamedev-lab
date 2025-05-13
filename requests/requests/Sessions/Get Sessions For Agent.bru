@@ -1,0 +1,11 @@
+meta {
+  name: Get Sessions For Agent
+  type: http
+  seq: 2
+}
+
+get {
+  url: http://localhost:8000/sessions/godotgpt
+  body: none
+  auth: inherit
+}

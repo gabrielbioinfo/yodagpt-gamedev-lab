@@ -1,0 +1,19 @@
+meta {
+  name: Chat
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:11434/api/generate
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "model": "deepseek-r1:7b",
+    "prompt": "Explique o que é o node Area2D na Godot.",
+    "stream": false
+  }
+}

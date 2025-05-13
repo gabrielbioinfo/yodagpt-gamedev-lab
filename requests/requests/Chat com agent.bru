@@ -1,0 +1,18 @@
+meta {
+  name: Chat com agent
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:8000/chat/godotgpt
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "session_id": "a0fcfe02-c7e2-4da5-a5e3-3801aa69dd54",
+    "message": "Como movimentar um personagem 3d na Godot?"
+  }
+}
